@@ -42,10 +42,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
 
 		<!-- lombok工具 -->
 		<dependency>
@@ -62,6 +63,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
 </project>

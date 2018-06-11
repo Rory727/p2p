@@ -11,6 +11,8 @@ public class IndexController {
 
     @RequestMapping("/index")
     public String index() {
-        return "static/index";
+
+        System.out.println("8888");
+        return "static/index.html";
     }
 }
